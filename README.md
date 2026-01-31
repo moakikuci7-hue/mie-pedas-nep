@@ -89,14 +89,4 @@ Update konfigurasi koneksi database sesuai data dari panel hosting.
 
 Penting: Atur izin akses (Permissions) folder assets/bukti/ menjadi 777 agar server mengizinkan upload file dari pembeli.
 
-Kenapa harus pakai format ini?
 
-Judul Terlihat Jelas: Pakai # membuat judul jadi besar dan tebal.
-
-Tabel: Membuat penjelasan database jauh lebih enak dilihat daripada paragraf.
-
-Kotak Kode: Menggunakan ` (backtick) membuat perintah instalasi terlihat seperti profesional.
-
-Emoji: Memberikan kesan modern dan tidak membosankan.
-
-Gimana Bang? Kalau di-paste ke GitBook, hasilnya pasti langsung rapi dan ganteng maksimal! 🚀🔥🏆
