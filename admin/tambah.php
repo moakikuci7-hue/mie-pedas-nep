@@ -1,3 +1,14 @@
+<?php
+session_start();
+if (!isset($_SESSION['admin'])) {
+    header("Location: login.php");
+    exit;
+}
+include 'koneksi.php'; 
+?>
+<!DOCTYPE html>
+<html lang="id">
+<!-- ... (Sisa kodingan Form Tambah kamu di bawahnya) ... -->
 <?php include 'koneksi.php'; ?>
 <!DOCTYPE html>
 <html lang="id">

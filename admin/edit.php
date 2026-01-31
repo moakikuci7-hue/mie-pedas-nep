@@ -1,3 +1,17 @@
+<?php
+session_start();
+if (!isset($_SESSION['admin'])) {
+    header("Location: login.php");
+    exit;
+}
+include 'koneksi.php';
+$id = $_GET['id'];
+$query = mysqli_query($koneksi, "SELECT * FROM menu WHERE id_menu = '$id'");
+$data = mysqli_fetch_assoc($query);
+?>
+<!DOCTYPE html>
+<html lang="id">
+<!-- ... (Sisa kodingan Form Edit kamu di bawahnya) ... -->
 <?php 
 include 'koneksi.php';
 $id = $_GET['id'];
